@@ -6,7 +6,7 @@ cnx = mysql.connector.connect(user='Ramses', password='Tanis36', host='127.0.0.1
 cursor=cnx.cursor()         #Función Cursor
 
 #Petición de datos a MySQL desde la tabla rfid
-query =("SELECT id, nombre,rfid FROM rfid WHERE nombre='Ramses Ortiz';")
+query =("SELECT id, nombre,rfid FROM rfid WHERE id = 9;")
 
 #Ejecutar funsion cursor con la petición de datos a MySQL
 cursor.execute(query)
