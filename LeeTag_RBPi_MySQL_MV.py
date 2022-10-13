@@ -9,7 +9,7 @@ reader = SimpleMFRC522()
 try:
     while True:
         #Lee el TAG o Tarjeta y toma sus valores de texto e id
-        print ("hold a tag near the reader")
+        print ("Acerca la etiqueta RF o Tarjeta RF")
         id, text = reader.read()
 
         # Conexión
