@@ -28,7 +28,7 @@ try:
     id, text = reader.read()
     # print("ID: %s\nText: %s" % (id,text))
     Registro_MysQL= text.split(",")
-    # print (Registro_MysQL)
+    print (Registro_MysQL)
     # print (Registro_MysQL[0])
     sleep(1)
     query_insert = "INSERT INTO rfid (nombre,texto,rfid) VALUES ('" + Registro_MysQL[0] + "','" + args.status + "'," + str (id) + ");"
