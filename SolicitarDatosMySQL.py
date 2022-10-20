@@ -2,7 +2,7 @@
 import mysql.connector
 
 #inicializar conexión a base de datos de MySQL
-cnx = mysql.connector.connect(user='RamsesRB', password='pi', host='192.168.1.68', database='CodigoIoT')
+cnx = mysql.connector.connect(user='RamsesRB', password='pi', host='192.168.1.66', database='CodigoIoT')
 cursor=cnx.cursor()         #Función Cursor
 
 #Petición de datos a MySQL desde la tabla rfid
